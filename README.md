@@ -1,58 +1,34 @@
-# JS Frameworks - Module Assignment 4
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Brief
+## Getting Started
 
-Create a new app using Create Next App.
+First, run the development server:
 
-You can create an app inside the current folder using:
-
+```bash
+npm run dev
+# or
+yarn dev
 ```
-npx create-next-app .
-```
 
-> If your repo name has a capital letter in it make the folder name all lowercase before running the above command.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-You can use a UI library like React Bootstrap or style it all on your own. The styling is not important for this assignment but every frontend project must always be responsive.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-Find a URL that returns multiple results. You can use any URL except the ones used in this week's module.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-You can also hardcode json and return it from an API route in `pages/api/*`.
+## Learn More
 
-All UI should be built the "Next.js" way. Don't, for example, use React Router.
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Level 1
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Create these 3 routes, named exactly:
+## Deploy on Vercel
 
-- "/"
-- "/results"
-- "/about-us"
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Place links to these routes in some kind of nav common to all pages.
-
-All three pages should use a `Heading` component.
-
-### Home page
-
-This page should display a heading and a link to the results page.
-
-
-### Results page
-
-This page should make a call to your URL and display at least 2 properties from each result.
-
-You can use either static generation or server-side rendering.
-
-If one of the properties you display is an image source, use Next's `Image` component.
-
-### About us page
-
-This page should display a heading and lorem text.
-
-
----
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
